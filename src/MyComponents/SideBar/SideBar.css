@@ -1,0 +1,72 @@
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+.sidebar {
+  flex: 0.4;
+  border: 1px solid black;
+  height: 100vh;
+  background-color: #131c21;
+  color: white;
+  min-width: 250px;
+  max-width: 400px;
+  overflow-y: scroll;
+}
+.sidebar_sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.sidebar_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #2a2f32;
+}
+
+.sidebar_header_options {
+  display: flex;
+  align-items: center;
+  color: #b1b3b5;
+}
+
+.sidebar_header_options .MuiSvgIcon-root {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.sidebar_header_search {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  background-color: #131c21;
+}
+
+.sidebar_header_search .MuiSvgIcon-root {
+  margin-left: 10px;
+}
+.sidebar_header_search_adjust > input {
+  border: none;
+  outline: none;
+  font-size: 24px;
+  padding: 0px 5px;
+  width: 80%;
+  background-color: #2a2f32;
+  color: #c9cacc;
+}
+.sidebar_header_search_adjust {
+  display: flex;
+  background-color: #2a2f32;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 15px;
+  color: #c9cacc;
+}
+
+.sidebar_hr {
+  border: 0.5px solid #2a2f32;
+}
+
+.sidebar_chatlist {
+  padding: 0px;
+}

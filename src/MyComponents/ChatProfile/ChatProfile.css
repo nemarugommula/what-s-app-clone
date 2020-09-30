@@ -1,0 +1,32 @@
+.chatprofile {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: flex-start;
+  border-bottom: 1px solid #888888;
+}
+.chatprofile:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.09);
+  transition-timing-function: ease-in;
+  transition-delay: 0.041s;
+  cursor: pointer;
+}
+.chatprofile_details {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.chatprofile_details > p {
+  font-size: 20px;
+  color: #95999c;
+}
+
+.chatprofile_details > strong {
+  font-size: 25px;
+  color: #ffffff;
+}
